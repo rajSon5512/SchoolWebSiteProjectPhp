@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+
+input[type=text]{
+	
+
+	border-radius:4px;
+	border:2px solid #aaa;
+	padding:8px;
+	width: 75%;
+	
+	}
+
+input[type=text]:focus{
+	
+	border-color:#0033FF;
+	box-shadow:0 0 8px 0 #03F;	
+
+}
+	
+
+
+input[type=number]{
+	
+	
+	margin:2px;
+	border-radius:4px;
+	border:2px solid #aaa;
+	padding:8px;
+	width: 75%;
+	
+
+}
+
+input[type=number]:focus{
+	
+	border-color:#0033FF;
+	box-shadow:0 0 8px 0 #03F;	
+
+}
+
+
+input[type=Date]{
+	
+	margin:2px;
+	border-radius:4px;
+	border:2px solid #aaa;
+	padding:8px;
+	width: 75%;
+	
+}
+input[type=Date]:focus{
+	
+	border-color:#0033FF;
+	box-shadow:0 0 8px 0 #03F;	
+
+}
+
+
+
+select{
+
+	width=100%;
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:8px 0;
+	outline:none;
+	padding:8px;
+	box-sinput[type=text]:focus{
+
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;	
+}izing:border-box;	
+	
+}
+
+select:focus{
+	
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;	
+
+}
+
+input[type=email]{
+	
+	margin:2px;
+	border-radius:4px;
+	border:2px solid #aaa;
+	padding:8px;
+	width: 75%;
+	
+}
+
+input[type=email]:focus{
+	
+	border-color:#0033FF;
+	box-shadow:0 0 8px 0 #03F;	
+
+}
+
+
+input[type=file]{
+	
+	margin:10px;	
+	
+}
+
+td{
+	color:#000;
+
+
+	
+}
+
+
+
+</style>

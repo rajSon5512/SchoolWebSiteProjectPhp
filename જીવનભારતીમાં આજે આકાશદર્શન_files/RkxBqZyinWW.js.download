@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["TVj+8"]); }
+
+__d("FriendSuggesterDialog",["AsyncDialog","AsyncRequest","emptyFunction","ge"],(function a(b,c,d,e,f,g){var h={_dialog:null,_close_handler:null,_cancel_handler:null,_newcomer:null,show:function i(j,k,l,m){this._close_handler=l||c("emptyFunction");this._cancel_handler=m||c("emptyFunction");this._newcomer=j;var n=new(c("AsyncRequest"))().setURI("/ajax/choose/").setData({type:"suggest_friends",newcomer:j,ref:k}).setContextData("clicktype","Suggest a Friend",k==="profile_others").setRelativeTo(c("ge")("fbRequestsJewel"));c("AsyncDialog").send(n)}};f.exports=h}),null);
+__d("legacy:friend-suggester-dialog",["FriendSuggesterDialog"],(function a(b,c,d,e,f,g){b.FriendSuggesterDialog=c("FriendSuggesterDialog")}),3);
